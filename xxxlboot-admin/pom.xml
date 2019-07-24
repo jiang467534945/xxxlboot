@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>xxxlboot</artifactId>
+        <groupId>com.xl</groupId>
+        <version>1.0</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>xxxlboot-admin</artifactId>
+    <name>${project.artifactId}</name>
+    <version>${xxxl.project.version}</version>
+    <packaging>war</packaging>
+    <dependencies>
+        <dependency>
+            <groupId>com.xl</groupId>
+            <artifactId>xxxlboot-common</artifactId>
+            <version>${xxxl.project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.xl</groupId>
+            <artifactId>xxxlboot-auth</artifactId>
+            <version>${xxxl.project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.xl</groupId>
+            <artifactId>xxxlboot-system</artifactId>
+            <version>${xxxl.project.version}</version>
+        </dependency>
+        <!--<dependency>-->
+            <!--<groupId>org.springframework.security.oauth.boot</groupId>-->
+            <!--<artifactId>spring-security-oauth2-autoconfigure</artifactId>-->
+            <!--<version>2.0.0.RELEASE</version>-->
+        <!--</dependency>-->
+    </dependencies>
+
+</project>
